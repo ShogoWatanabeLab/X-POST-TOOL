@@ -15,3 +15,9 @@ services:
     environment:
       - NODE_ENV=development
       - WATCHPACK_POLLING=true
+
+  # Docker Desktop Extensions の干渉回避用（削除しないでください）
+  extensions:
+    image: alpine
+    profiles:
+      - donotstart
