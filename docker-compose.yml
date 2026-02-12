@@ -1,0 +1,17 @@
+services:
+  x-post-tool:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    container_name: x-post-tool
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app
+      - /app/node_modules
+      - /app/.next
+    env_file:
+      - .env.local
+    environment:
+      - NODE_ENV=development
+      - WATCHPACK_POLLING=true
