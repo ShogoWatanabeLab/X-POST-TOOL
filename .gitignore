@@ -48,6 +48,7 @@ next-env.d.ts
 
 # Supabase
 supabase/.temp/
+supabase/.branches/
 
 # Docker
 docker/tmp/
