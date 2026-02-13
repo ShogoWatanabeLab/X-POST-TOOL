@@ -46,9 +46,7 @@ next-env.d.ts
 # Vercel
 .vercel
 
-# Supabase
-supabase/.temp/
-supabase/.branches/
+# Supabase (詳細は supabase/.gitignore で管理)
 
 # Docker
 docker/tmp/
