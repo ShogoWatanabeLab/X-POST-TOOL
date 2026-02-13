@@ -1,5 +1,7 @@
+name: xpost-web
+
 services:
-  x-post-tool:
+  app:
     build:
       context: .
       dockerfile: docker/Dockerfile
@@ -16,8 +18,8 @@ services:
       - NODE_ENV=development
       - WATCHPACK_POLLING=true
 
-  # Docker Desktop Extensions の干渉回避用（削除しないでください）
-  extensions:
+  # Docker Desktop Extensions の干渉回避用
+  docker-desktop-extension-dummy:
     image: alpine
     profiles:
       - donotstart
