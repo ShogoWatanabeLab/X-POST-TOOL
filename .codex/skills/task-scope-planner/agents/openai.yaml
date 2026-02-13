@@ -1,0 +1,8 @@
+interface:
+  display_name: "Task Scope Planner"
+  short_description: "要件から次タスクと実施範囲を決める計画スキル"
+  default_prompt: "Use $task-scope-planner to read x-post-tool requirements and output the next executable tasks with in-scope and out-of-scope boundaries."
+
+policy:
+  allow_implicit_invocation: true
+

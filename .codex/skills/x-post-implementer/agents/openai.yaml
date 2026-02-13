@@ -1,0 +1,8 @@
+interface:
+  display_name: "X Post Implementer"
+  short_description: "x-post-toolの計画を実装に落とすスキル"
+  default_prompt: "Use $x-post-implementer to implement only the in-scope tasks from my plan for x-post-tool and report completion against acceptance criteria."
+
+policy:
+  allow_implicit_invocation: true
+

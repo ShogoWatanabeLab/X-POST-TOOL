@@ -6,6 +6,7 @@
 ## 作業の前提
 - 設計ファイル（`docs/design/`）が事前に用意されています
 - `.claude/claude.md` に開発ルールが記載されています
+- Skill運用フローは `docs/instructions/skill-workflow.md` を参照してください
 - 必ずこれらを参照してから実装してください
 
 ## 実装時のルール

@@ -104,3 +104,6 @@ type Example = {
 - `metrics-collection.md`: メトリクス取得・キャッシュ戦略
 - `dashboard-analytics.md`: ダッシュボード・分析機能
 - `stripe-integration.md`: Stripe決済統合
+
+## 関連ドキュメント
+- Skill運用フロー（PDCA）: `docs/instructions/skill-workflow.md`

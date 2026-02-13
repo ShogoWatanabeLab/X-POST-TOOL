@@ -1,0 +1,8 @@
+interface:
+  display_name: "X Post Reviewer"
+  short_description: "実装を受け入れ条件基準でレビューするスキル"
+  default_prompt: "Use $x-post-reviewer to review my x-post-tool implementation, list severity-ranked findings with file references, and check acceptance criteria coverage."
+
+policy:
+  allow_implicit_invocation: true
+
